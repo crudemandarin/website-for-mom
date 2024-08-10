@@ -1,0 +1,117 @@
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+
+    width: 500px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HERO */
+
+#hero {
+    margin-top: 20vh;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px lightgray;
+}
+
+.content {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.content > p {
+    font-size: 24px;
+}
+
+.company {
+    font-style: italic;
+    font-weight: 500;
+    color: darkgray;
+}
+
+/* ABOUT ME */
+
+#about-me {
+    text-align: center;
+    gap: 32px;
+}
+
+#about-me h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#about-me p {
+    line-height: 32px;
+}
+
+#about-me ul {
+    line-height: 32px;
+    font-size: 20px;
+}
+
+/* CONTACT */
+
+#contact {
+    gap: 64px;
+}
+
+#contact h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+
+#contact table {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#contact table tr td:first-child {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+/* FOOTER */
+
+#footer {
+    height: 300px;
+}
+
+/* TEXT STYLES */
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: unset;
+    color: #2668B2;
+}
